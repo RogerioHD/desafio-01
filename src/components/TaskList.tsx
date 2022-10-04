@@ -72,7 +72,8 @@ export function TaskList() {
         <form className="input-group">
           <input 
             type="text" 
-            placeholder="Adicionar nova tarefa" 
+            //placeholder="Adicionar nova tarefa" 
+            placeholder='Adicionar novo todo'
             //onChange={(e) => setNewTaskTitle(e.target.value)}
             onChange={handleInputChange}
             value={newTaskTitle}
